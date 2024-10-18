@@ -12,32 +12,32 @@ import { FaCartPlus } from "react-icons/fa";
 // Sample limited edition product data
 const favoriteList = [
   {
-    productID: 1,
+    productID: 11,
     imageUrl: "/domino-studio-164_6wVEHfI-unsplash.jpg",
     productName: "Nike Air",
     productPrice: 57,
   },
   {
-    productID: 2,
+    productID: 12,
     imageUrl: "/products/heels.jpg",
     productName: "Blue Heels",
     productPrice: 45,
   },
   {
-    productID: 3,
+    productID: 13,
     imageUrl: "/products/earphones.jpg",
     productName: "AirPods",
     productPrice: 125,
     productReviews: "1k+ reviews",
   },
   {
-    productID: 4,
+    productID: 14,
     imageUrl: "/products/bag.jpg",
     productName: "Mango Bag",
     productPrice: 27,
   },
   {
-    productID: 5,
+    productID: 15,
     imageUrl: "/products/rayban.jpg",
     productName: "Raybans Sunglasses",
     productPrice: 43,
