@@ -47,7 +47,7 @@ const CollectionSection = () => {
             <div className={styles.trendyMainContainer}>
               {productList.map((product) => (
                 <ProductCard
-                  key={product.id}
+                  key={product.productID}
                   product={product}
                   handleAddToCart={handleAddToCart} // Pass add-to-cart functionality to the product card
                 />
@@ -60,7 +60,7 @@ const CollectionSection = () => {
             <div className={styles.trendyMainContainer}>
               {productList.reverse().map((product) => (
                 <ProductCard
-                  key={product.id}
+                  key={product.productID}
                   product={product}
                   handleAddToCart={handleAddToCart}
                 />
@@ -75,7 +75,7 @@ const CollectionSection = () => {
                 .sort((a, b) => b.productRating - a.productRating) // Sort products by rating
                 .map((product) => (
                   <ProductCard
-                    key={product.id}
+                    key={product.productID}
                     product={product}
                     handleAddToCart={handleAddToCart}
                   />
@@ -90,7 +90,7 @@ const CollectionSection = () => {
                 .sort((a, b) => b.salesCount - a.salesCount) // Sort products by sales count
                 .map((product) => (
                   <ProductCard
-                    key={product.id}
+                    key={product.productID}
                     product={product}
                     handleAddToCart={handleAddToCart}
                   />
