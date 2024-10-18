@@ -5,7 +5,7 @@ import { FaCartPlus } from "react-icons/fa";
 // ProductCard component accepts product details and a function to handle adding items to the cart
 const ProductCard = ({ product, handleAddToCart }) => {
   return (
-    <div className={styles.productContainer} key={product.id}>
+    <div className={styles.productContainer} key={product.productID}>
       {/* Product Image Section */}
       <div className={styles.productImageDiv}>
         <img
